@@ -23,13 +23,9 @@ npm test → Launches the test runner.
 
 ## 🛠️ Tech Stack
 
-Frontend: React (bootstrapped with Create React App)
+Frontend: React (bootstrapped with Create React App), HTML
 
-Styling: CSS, [add any UI library if using, e.g., Tailwind/Bootstrap]
-
-State Management: [add if you’re using Redux/Context API]
-
-Backend: [add if planned in future, or mark as "coming soon"]
+Styling: CSS
 
 ## 📖 Features
 
