@@ -40,3 +40,7 @@ Clean and simple UI for quick access.
 ## 📌 Note
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## 💻 Deployment Link:
+
+tranquil-swan-407773.netlify.app
