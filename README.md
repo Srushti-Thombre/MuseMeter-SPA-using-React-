@@ -29,7 +29,7 @@ Styling: CSS
 
 ## 📖 Features
 
-Record and organize books, movies, poems, and music.
+Record and organize books, movies, poems, plays and music.
 
 Rate and categorize each entry.
 
@@ -43,4 +43,4 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## 💻 Deployment Link:
 
-tranquil-swan-407773.netlify.app
+musemeter-spa.netlify.app
