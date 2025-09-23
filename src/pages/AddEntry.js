@@ -16,20 +16,18 @@ function AddEntry() {
 
     const newEntry = {
       title,
-      type: entryType.toLowerCase(), // for filtering consistency
-      displayType: entryType,        // for UI display
+      type: entryType.toLowerCase(),      // for filtering consistency
+      displayType: entryType,             // for UI display
       rating,
       thoughts,
-      isFavorite: false,             // default false
-      dateAdded: Date.now(),         // unique ID + sorting
+      isFavorite: false,                  // default false
+      dateAdded: Date.now(),              // unique ID + sorting
     };
 
     // Get existing entries
     const savedEntries = JSON.parse(localStorage.getItem('musemeter_entries')) || [];
-
     // Add new entry at the start
     savedEntries.unshift(newEntry);
-
     // Save back to localStorage
     localStorage.setItem('musemeter_entries', JSON.stringify(savedEntries));
 
@@ -47,7 +45,6 @@ function AddEntry() {
     <div className="add-entry-container">
       <h2 className="text-center">Add a New Entry</h2>
       <form onSubmit={handleSubmit} className="add-entry-form">
-
         {/* Title */}
         <div className="form-group">
           <label>Title</label>
@@ -59,7 +56,6 @@ function AddEntry() {
             required
           />
         </div>
-
         {/* Type */}
         <div className="form-group">
           <label>Type</label>
@@ -68,14 +64,9 @@ function AddEntry() {
             <option>Movie</option>
             <option>Poem</option>
             <option>Music</option>
-            <option>Podcast</option>
-            <option>Artwork</option>
             <option>Theatre Play</option>
-            <option>Game</option>
-            <option>Other</option>
           </select>
         </div>
-
         {/* Custom Type */}
         {type === 'Other' && (
           <div className="form-group">
@@ -89,7 +80,6 @@ function AddEntry() {
             />
           </div>
         )}
-
         {/* Rating */}
         <div className="form-group">
           <label>Rating (1–5)</label>
@@ -102,7 +92,6 @@ function AddEntry() {
             required
           />
         </div>
-
         {/* Thoughts */}
         <div className="form-group">
           <label>Your Thoughts</label>
@@ -113,9 +102,10 @@ function AddEntry() {
             placeholder="Share your review or reflection..."
           ></textarea>
         </div>
-
         {/* Submit */}
-        <button type="submit" className="submit-btn">Add Entry</button>
+        <button type="submit" className="submit-btn">
+          Add Entry
+        </button>
       </form>
     </div>
   );

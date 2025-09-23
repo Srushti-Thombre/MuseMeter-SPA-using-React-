@@ -92,11 +92,7 @@ function ViewEntries() {
             <option value="movie">Movie</option>
             <option value="poem">Poem</option>
             <option value="music">Music</option>
-            <option value="artwork">Artwork</option>
-            <option value="game">Game</option>
             <option value="theatre play">Theatre Play</option>
-            <option value="podcast">Podcast</option>
-            <option value="other">Other</option>
           </select>
         </div>
 
