@@ -1,18 +1,18 @@
 .form {
-  display: flex;
-  flex-direction: column;
-  gap: 1.5rem;
-  max-width: 700px;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    max-width: 700px;
 }
 
 .ratingGroup {
-  display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
 }
 
 .ratingGroup label {
-  font-size: 1rem;
-  font-weight: 500;
-  color: #334155;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #334155;
 }

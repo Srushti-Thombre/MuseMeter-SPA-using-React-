@@ -5,16 +5,16 @@ import { AddEntry } from "./pages/AddEntry";
 import { ViewEntries } from "./pages/ViewEntries";
 
 export function App() {
-  return (
-    <>
-      <Navbar />
-      <div className="container mt-4">
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/add" element={<AddEntry />} />
-          <Route path="/view" element={<ViewEntries />} />
-        </Routes>
-      </div>
-    </>
-  );
+    return (
+        <>
+            <Navbar />
+            <div className="container mt-4">
+                <Routes>
+                    <Route path="/" element={<Home />} />
+                    <Route path="/add" element={<AddEntry />} />
+                    <Route path="/view" element={<ViewEntries />} />
+                </Routes>
+            </div>
+        </>
+    );
 }

@@ -2,6 +2,7 @@
   "name": "muse_meter",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
   "dependencies": {
     "bootstrap": "^5.3.7",
     "react": "^19.1.1",
@@ -13,14 +14,25 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "format": "prettier --write \"src/**/*.{ts,tsx,css,json}\"",
+    "format:check": "prettier --check \"src/**/*.{ts,tsx,css,json}\""
   },
   "devDependencies": {
+    "@eslint/js": "^10.0.1",
     "@types/node": "^26.0.0",
     "@types/react": "^19.2.17",
     "@types/react-dom": "^19.2.3",
     "@vitejs/plugin-react": "^6.0.2",
+    "eslint": "^10.5.0",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-react-hooks": "^7.1.1",
+    "eslint-plugin-react-refresh": "^0.5.3",
+    "prettier": "^3.8.4",
     "typescript": "^6.0.3",
+    "typescript-eslint": "^8.62.0",
     "vite": "^8.0.16"
   }
 }
