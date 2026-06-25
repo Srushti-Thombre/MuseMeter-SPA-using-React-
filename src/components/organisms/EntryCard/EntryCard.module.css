@@ -1,0 +1,13 @@
+.card {
+  height: 100%;
+}
+
+.favIcon {
+  color: gold;
+}
+
+.actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0.75rem;
+}

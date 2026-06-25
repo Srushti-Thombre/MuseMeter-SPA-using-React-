@@ -1,0 +1,23 @@
+.logo {
+  height: 50px;
+  width: auto;
+}
+
+.brand {
+  font-family: "Playfair Display", serif;
+  font-size: 1.4rem;
+  color: white !important;
+}
+
+.brand:hover {
+  color: #d4af37 !important;
+}
+
+.link {
+  color: white !important;
+  transition: color 0.3s ease;
+}
+
+.link:hover {
+  color: #d4af37 !important;
+}

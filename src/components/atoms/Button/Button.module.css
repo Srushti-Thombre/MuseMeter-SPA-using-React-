@@ -1,0 +1,57 @@
+.button {
+  border: none;
+  border-radius: 0.5rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.1s ease-in-out;
+}
+
+.button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.variant-primary {
+  background: #3b82f6;
+  color: #fff;
+}
+
+.variant-danger {
+  background: #ef4444;
+  color: #fff;
+}
+
+.variant-warning {
+  background: #f59e0b;
+  color: #fff;
+}
+
+.variant-outline-warning {
+  background: transparent;
+  border: 1px solid #f59e0b;
+  color: #f59e0b;
+}
+
+.variant-gold {
+  background: #d4af37;
+  color: #fff;
+}
+
+.variant-gold:hover {
+  background: #f3bd0a;
+  transform: translateY(-2px);
+}
+
+.variant-gold:active {
+  transform: translateY(0);
+}
+
+.size-sm {
+  padding: 0.25rem 0.5rem;
+  font-size: 0.875rem;
+}
+
+.size-md {
+  padding: 0.9rem 2rem;
+  font-size: 1rem;
+}
