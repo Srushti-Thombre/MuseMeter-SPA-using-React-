@@ -43,4 +43,4 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## 💻 Deployment Link:
 
-musemeter-spa.netlify.app
+http://musemeter-spa.netlify.app
